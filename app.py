@@ -1,9 +1,11 @@
 import streamlit as st
-import numpy as np
-import cv2
-from PIL import Image
+import numpy as np  # Pastikan NumPy diimpor terlebih dahulu
 import io
 import base64
+from PIL import Image
+
+# Import cv2 setelah NumPy
+import cv2
 from utils.image_utils import embed_message_dct, extract_message_dct, calculate_psnr, calculate_mse, calculate_ssim
 
 # Set page configuration
